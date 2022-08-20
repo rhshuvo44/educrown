@@ -51,16 +51,16 @@ const Footer = () => {
               Doubtful for answered one fat indulged margaret sir shutters
               together. Ladies so in wholly .
             </p>
-            <div class="input-group mb-3">
+            <div className="input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="abc@gmail.com"
                 aria-label="Recipient's username"
                 aria-describedby="button-subscribe"
               />
               <button
-                class="btn btn-outline-secondary"
+                className="btn btn-outline-secondary"
                 type="button"
                 id="button-subscribe"
               >

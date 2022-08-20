@@ -31,7 +31,6 @@ const LogIn = () => {
       }
 
   const onSubmit = (data) => {
-    console.log(data);
     signInWithEmailAndPassword(data.email, data.password);
   };
 
@@ -44,24 +43,24 @@ const LogIn = () => {
       <div className="row py-5">
         <div className="col-md-6 m-auto shadow-lg p-5 mb-5 bg-body rounded">
           <form className="" onSubmit={handleSubmit(onSubmit)}>
-            <div class="mb-3">
+            <div className="mb-3">
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 placeholder="name@example.com"
                 {...register("email")}
               />
             </div>
-            <div class="mb-3">
+            <div className="mb-3">
               <input
                 type="password"
-                class="form-control"
+                className="form-control"
                 placeholder="enter your password"
                 {...register("password")}
               />
             </div>
 
-            <input class="btn btn-dark" type="submit" value="Log In" />
+            <input className="btn btn-dark" type="submit" value="Log In" />
           </form>
           <p>
             Are You no Member ? <Link to="/signUp">Sing Up</Link>

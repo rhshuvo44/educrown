@@ -1,6 +1,4 @@
-import React from "react";
-import Course from "../Course/Course";
-const courses=[
+[
   {
     "id": "01",
     "title": "web design",
@@ -23,19 +21,3 @@ const courses=[
     "short": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, dolorem. Enim fugit odio tempore impedit, dolore at soluta error animi."
   }
 ]
-
-const Courses = () => {
-  
-  return (
-    <div className="container py-5" id="courses">
-      <h2 className="fw-bold fs-1 text-center">Our Trending Courses</h2>
-      <div className="row py-5">
-        {
-          courses.map((course)=><Course id={course.id} course={course}/>)
-        }
-      </div>
-    </div>
-  );
-};
-
-export default Courses;
