@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from '../../img/logo.png';
 
 const Navbar = () => {
   return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#h">
+        <Link class="navbar-brand" to="/">
           <img src={logo} alt="" />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -22,29 +23,29 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#h">
+              <Link class="nav-link active" aria-current="page" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#h">
+              <Link class="nav-link" aria-current="page" to="#fearuture">
               Features
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#h">
+              <Link class="nav-link" aria-current="page" to="#course">
               Courses
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#h">
+              <Link class="nav-link" aria-current="page" to="#faqs">
               Faqs
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#h">
+              <Link class="nav-link" aria-current="page" to="/login">
               LogIn
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
