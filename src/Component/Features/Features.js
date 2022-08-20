@@ -46,9 +46,9 @@ const Features = () => {
         <div className="col-md-12 text-center py-5">
           <div className="container px-5">
             <div className="row">
-              <div className="col-md-12 px-5">
-                <h2>Educrown is trusted by 50,000+ student.</h2>
-                <p className="px-5">
+              <div className="col-md-12">
+                <h2 className="fs-1 fw-bold">Educrown is trusted by 50,000+ student.</h2>
+                <p className="">
                   Microsoft has spent a lot of time trying to make Windows
                   self-repairing, partly because it generally gets the blame
                   when other programs or users try to improve” it. Given that

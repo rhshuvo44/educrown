@@ -2,8 +2,10 @@ import React from "react";
 import "./Banner.css";
 const Banner = () => {
   return (
-    <div id="banner">
-      <div className="banner-info">
+    <div id="banner" className="container-fluid py-5">
+      <div className="row">
+        <div className="col-md-6">
+        <div className="banner-info">
         <h1>Develop a passion for learning new things.</h1>
         <p>
           Was certainty remaining engrossed applauded sir how discovery. Settled
@@ -11,7 +13,11 @@ const Banner = () => {
           expenses.
         </p>
       </div>
-      <div></div>
+        </div>
+        <div className="col-md-6">
+
+        </div>
+      </div>
     </div>
   );
 };
