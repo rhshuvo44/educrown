@@ -70,6 +70,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div id="footer" className="container-fluid p-4 text-center text-white">
+        <p>Copyright ©2022 All rights reserved </p>
+      </div>
     </footer>
   );
 };
