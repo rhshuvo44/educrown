@@ -1,0 +1,21 @@
+.iconBox {
+  background-color: #d3ffea;
+  border-radius: 5px;
+  color: #31dc89;
+  height: 70px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+  text-align: center;
+  width: 70px;
+}
+.icons {
+  font-size: 50px;
+}
+#features-buttom{
+    background: rgba(8, 8, 8, 0.63) url(../../img/fact-bg.jpg.webp);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: scroll;
+}
